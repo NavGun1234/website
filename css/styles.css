@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Arvo', serif;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'MonteCarlo', cursive;
+    font-size: 5.625rem;
+    color: #FC5185;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5rem;
+    color: #FC5185;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    color: #364F6B;
+}
+
+a {
+    color: #364F6B;
+}
+
+hr {
+    border-color: #3FC1C9;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    width: 5%;
+}
+
+.top-container {
+    background-color: #3FC1C9;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+}
+
+.bottom-container {
+    background-color: #FC5185;
+    padding: 50px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px
+}
+
+.profile_pic {
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.computer-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.game-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.profile {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+}
+
+.contact-me {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+}
+
+.copyright {
+    color: #3FC1C9;
+    line-height: 2;
+}
+
+.footer-link {
+    line-height: 2;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Arvo', serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   background-color: #3FC1C9;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #3FC1C9 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   background: #364F6B;
+   border: solid #364F6B 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
